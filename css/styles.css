@@ -153,8 +153,19 @@ p {
 }
 
 /* media query */
-@media (max-width: 1028px) {
+@media  (max-width: 667px) {
     #title{
+        text-align: center;
+    }
+    .big-heading {
+        font-size: 2rem;
+    }
+    #title-image{
+        position: static;
+    }
+}
+@media  (min-width:673px) and (max-width: 1028px) {
+    #title {
         text-align: center;
     }
     .title-image {
