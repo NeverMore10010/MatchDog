@@ -2,31 +2,45 @@ body {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
-h1, h2, h3 {
+
+h1,
+h2,
+h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
 p {
     color: #8f8f8f;
 }
+
 .container-fluid {
-    padding:7% 15%;
+    padding: 7% 15%;
 }
-#title {
-    text-align: left;
+
+/* section  */
+.colored-section {
     background-color: #687EFF;
     color: white;
 }
+
+.white-section {
+    background-color: white;
+}
+
+#title {
+    text-align: left;
+}
+
 .big-heading {
     font-weight: 900;
     font-size: 3.5rem;
-    line-height: 1.5;  
+    line-height: 1.5;
 }
 
 /* Navigatiion bar*/
 .navbar {
     padding: 0 0 4.5rem;
-    
+
 }
 
 .navbar-brand {
@@ -54,11 +68,9 @@ p {
 .title-image {
     width: 100%;
     border-radius: 100%;
-    background-color: #687EFF;
     box-shadow: 0 4px 2px -2px #80B3FF;
-    
-    
 }
+
 .row {
     margin-top: 3%;
 }
@@ -68,15 +80,16 @@ p {
 #features {
     padding: 7% 7%;
     margin: 7%;
-    background-color: white;
-    position:relative;
-    
-    
+
+    position: relative;
+
+
 }
 
 .feature-box {
     padding: 5%;
 }
+
 .feature-title {
     font-weight: 700;
     font-size: 1.5rem;
@@ -95,27 +108,31 @@ p {
 /* testimonial */
 #testimonials {
     background-color: #80B3FF;
-    color: #fff;
 }
+
 .testimonial-text {
     font-size: 3rem;
     font-weight: 700;
     line-height: 1.5;
 }
+
 .testimonial-image {
     width: 10%;
     border-radius: 100%;
     margin: 20px;
 }
+
 /* press */
 #press {
     background-color: #80B3FF;
     padding-bottom: 3%;
 }
+
 .press-logo {
-    width:15%;
+    width: 15%;
     margin: 20px 20px 50px;
 }
+
 /* Pricing section` */
 
 #pricing {
@@ -123,24 +140,21 @@ p {
 }
 
 .pricing-column {
-    padding:3% 2%;
+    padding: 3% 2%;
 }
+
 .pricing-text {
     font-size: 3rem;
     font-weight: 700;
     line-height: 1.5;
 }
+
 .pricing-name {
     font-weight: 700;
     font-size: 1.5rem;
 }
 
 /* call to action */
-#cta {
-    background-color: #687EFF;
-    color: white;
-}
-
 
 
 /* footer */
@@ -148,26 +162,31 @@ p {
     color: black;
     padding: 0.5rem;
 }
-.icons:hover{
+
+.icons:hover {
     color: #687EFF;
 }
 
 /* media query */
-@media  (max-width: 667px) {
-    #title{
-        text-align: center;
-    }
-    .big-heading {
-        font-size: 2rem;
-    }
-    #title-image{
-        position: static;
-    }
-}
-@media  (min-width:673px) and (max-width: 1028px) {
+@media (max-width: 667px) {
     #title {
         text-align: center;
     }
+
+    .big-heading {
+        font-size: 2rem;
+    }
+
+    #title-image {
+        position: static;
+    }
+}
+
+@media (min-width:673px) and (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
     .title-image {
         position: static;
     }
